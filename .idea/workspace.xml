@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca173131-7770-48c0-8670-672b7e915549" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/site/Add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/site/Find.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/site/Homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/site/Remove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/site/Show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/site/Update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="jv80ghwo" />
+  </component>
+  <component name="ProjectId" id="1ko7A8TAQoirQHUwxdcv6ymLI43" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.9" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca173131-7770-48c0-8670-672b7e915549" name="Default Changelist" comment="" />
+      <created>1606354943723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606354943723</updated>
+      <workItem from="1606354944773" duration="23000" />
+      <workItem from="1606355001213" duration="31000" />
+      <workItem from="1606355122051" duration="79000" />
+      <workItem from="1606355257245" duration="52000" />
+      <workItem from="1606355547217" duration="4000" />
+      <workItem from="1606355583383" duration="54000" />
+      <workItem from="1606355950627" duration="5000" />
+      <workItem from="1606356025297" duration="252000" />
+      <workItem from="1606356505096" duration="84000" />
+      <workItem from="1606356614233" duration="10000" />
+      <workItem from="1606356638991" duration="55000" />
+      <workItem from="1606356698657" duration="2000" />
+      <workItem from="1606356790100" duration="9000" />
+      <workItem from="1606356892290" duration="6000" />
+      <workItem from="1606356907573" duration="9000" />
+      <workItem from="1606356929209" duration="4000" />
+      <workItem from="1606356945823" duration="12000" />
+      <workItem from="1606356998226" duration="110000" />
+      <workItem from="1606357247656" duration="13000" />
+      <workItem from="1606357289866" duration="601000" />
+      <workItem from="1606423679108" duration="904000" />
+      <workItem from="1606424643474" duration="950000" />
+      <workItem from="1606425782872" duration="152000" />
+      <workItem from="1606425954901" duration="26000" />
+      <workItem from="1606425998592" duration="20000" />
+      <workItem from="1606426027997" duration="261000" />
+      <workItem from="1606426306251" duration="177000" />
+      <workItem from="1606426586534" duration="239000" />
+      <workItem from="1606426903874" duration="37000" />
+      <workItem from="1606426961184" duration="376000" />
+      <workItem from="1606427358094" duration="376000" />
+      <workItem from="1606427902788" duration="552000" />
+      <workItem from="1606428530482" duration="555000" />
+      <workItem from="1606429091193" duration="635000" />
+      <workItem from="1606429937519" duration="747000" />
+      <workItem from="1606430770527" duration="1314000" />
+      <workItem from="1606433503542" duration="277000" />
+      <workItem from="1606433827655" duration="24000" />
+      <workItem from="1606433870684" duration="39000" />
+      <workItem from="1606433920703" duration="13000" />
+      <workItem from="1606434059669" duration="291000" />
+      <workItem from="1606434367048" duration="4000" />
+      <workItem from="1606434395039" duration="5000" />
+      <workItem from="1606434412740" duration="25000" />
+      <workItem from="1606434458589" duration="52000" />
+      <workItem from="1606434535346" duration="289000" />
+      <workItem from="1606434865033" duration="5000" />
+      <workItem from="1606434903720" duration="84000" />
+      <workItem from="1606435071179" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="291" y="258" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606356555042">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="291" y="258" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.963@0.23.1680.963" timestamp="1606356555042" />
+    <state width="1345" height="128" key="GridCell.Tab.0.bottom" timestamp="1606435100572">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1345" height="128" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1606435100572" />
+    <state width="1345" height="128" key="GridCell.Tab.0.center" timestamp="1606435100571">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1345" height="128" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1606435100571" />
+    <state width="1345" height="128" key="GridCell.Tab.0.left" timestamp="1606435100571">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1345" height="128" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1606435100571" />
+    <state width="1345" height="128" key="GridCell.Tab.0.right" timestamp="1606435100572">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1345" height="128" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1606435100572" />
+    <state x="379" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1606429135702">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="379" y="234" width="670" height="676" key="search.everywhere.popup/0.23.1680.963@0.23.1680.963" timestamp="1606429135702" />
+  </component>
+</project>

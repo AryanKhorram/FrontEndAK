@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Books Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href ="#">Navbar</a>
+    <button class="navbar-toggler" type = "button" data-toggle = "collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+        <ul class = "navbar-nav mr-auto">
+            <li class = "nav-item active">
+                <a class = "nav-link" href ="Homepage.html">Homepage <span class="sr-only">(current)</span></a>
+            </li>
+            <li class = "nav-item active">
+                <a class = "nav-link" href ="Remove.html">Delete Page<span class="sr-only">(current)</span></a>
+            </li>
+            <li class = "nav-item active">
+                <a class = "nav-link" href ="Show.html">Show Books Page<span class="sr-only">(current)</span></a>
+            </li>
+            <li class = "nav-item active">
+                <a class = "nav-link" href ="Find.html">Find Books Page<span class="sr-only">(current)</span></a>
+            </li>
+            <li class = "nav-item active">
+                <a class = "nav-link" href ="Update.html">Update Books Page <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Add Book</h1>
+    <div class="container">
+        <form method="POST"
+              action="https://polar-ridge-58828.herokuapp.com/api/books/">
+            <h2>Please provide your books information</h2>
+            <div class="form-group">
+                <label for="Name">Name:</label>
+                <input type="text" name="Name" id="Name" class="form-control"
+                       placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="Author">Author:</label>
+                <input type="text" name="Author" id="Author" class="form-control"
+                       placeholder="Author">
+            </div>
+            <div class="form-group">
+                <label for="ISBN">ISBN:</label>
+                <input type="text" name="ISBN" id="ISBN" class="form-control"
+                       placeholder="ISBN">
+            </div>
+            <div class="form-group">
+                <label for="Price">Price:</label>
+                <input type="number" name="Price" id="Price" class="form-control"
+                       placeholder="Price">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <button class="btn btn-lg btn-outline-primary" id="btnAddBook">Add Book</button>
+    </div>
+    <div class="jumbotron" id="output">
+
+    </div>
+</div>
+<script>
+    document.getElementById("btnAddBook").addEventListener("click", (event) =>{
+        let url = "https://polar-ridge-58828.herokuapp.com/api/books/"
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function (){
+            if (this.readyState == 4 && this.status == 200){
+                document.getElementById("output").innerHTML =
+                    "<pre>" + this.responseText + "</pre>";
+            }
+        };
+        // foo=bar&lorem=ipsum
+        let booksData = "Name=" + document.getElementById("Name").value + "&" +
+            "Author=" + document.getElementById("Author").value  + "&" +
+            "ISBN="  + document.getElementById("ISBN").value  + "&" +
+            "Price="  + document.getElementById("Price").value ;
+        xhttp.open('POST', url, true);
+        // Just needed to place this line AFTER opening the object
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhttp.send(booksData);
+    });
+</script>
+
+
+</body>
+</html>
