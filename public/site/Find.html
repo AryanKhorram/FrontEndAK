@@ -36,18 +36,36 @@
     </div>
 </nav>
 
+
+<div class="container">
+    <h1>Find Book</h1>
+    <div class="container">
+        <form method="GET"
+              action="https://polar-ridge-58828.herokuapp.com/api/books/">
+            <h2>Please provide your books information</h2>
+            <div class="form-group">
+                <label for="ISBN">ISBN:</label>
+                <input type="text" name="ISBN" id="ISBN" class="form-control"
+                       placeholder="ISBN">
+            </div>
+            <div class="form-group">
+                <label for="Author">Author:</label>
+                <input type="text" name="Author" id="Author" class="form-control"
+                       placeholder="Author">
+            </div>
+        </form>
+    </div>
+</div>
+
+
 <div class="container">
     <h1>Find Books</h1>
-    <button class="btn-primary btn-lg" id="btnFinddBooks">Find Books</button>
+    <button class="btn-primary btn-lg" id="btnFindBooks">Find Books</button>
     <div class="jumbotron" id="output">
     </div>
 </div>
 
-<script>
 
-
-
-</script>
 
 </body>
 </html>
